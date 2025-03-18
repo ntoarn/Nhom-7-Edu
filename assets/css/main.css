@@ -184,3 +184,31 @@ h5,
 h6 {
   font-weight: 800;
 }
+
+* {
+  padding: 0;
+  margin: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+html {
+  font-family: Poppins;
+}
+
+.products .img_product {
+  background-color: #f9f1e7;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  width: 453px;
+  height: 500px;
+  border-radius: 10px;
+}
+.products .img_sub > img {
+  margin-bottom: 20px;
+  background-color: #f9f1e7;
+  border-radius: 10px;
+  height: 80px;
+  width: 76px;
+}
