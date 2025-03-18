@@ -1,0 +1,45 @@
+.banner {}
+
+.banner img {
+    width: 100%;
+    height: auto;
+}
+
+.banner-text {
+    text-align: left;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translateX(10px);
+    transform: translateY(-90%);
+    color: white;
+    p {
+        color: var(--Font-Color, #333);
+        font-family: Poppins;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: normal;
+        letter-spacing: 3px;
+        padding-bottom: 10px;
+    }
+        h3 {
+            // width: 559px;
+            // height: 127px;
+            flex-shrink: 0;
+            color: var(--Primary, #B88E2F);
+            font-family: Poppins;
+            font-size: 52px;
+            font-style: normal;
+            font-weight: 700;
+            line-height: 65px;
+            padding-bottom: 10px;
+        }
+            button {
+                margin-top: 10px;
+                padding: 25px 72px;
+                align-items: flex-start;
+                gap: 10px;
+                background-color: #B88E2F;
+    }
+}

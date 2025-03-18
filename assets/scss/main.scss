@@ -22,6 +22,7 @@
 @import "layout/header";
 @import "layout/footer";
 @import "layout/grid";
+@import "layout/banner";
 @import "layout/sidebar";
 
 // pages
@@ -29,6 +30,7 @@
 @import "themes/dark";
 @import "vendors/bootstrap";
 @import "pages/product_detail";
+@import "pages/description";
 
 // themes
 @import "themes/dark";
