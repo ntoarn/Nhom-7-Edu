@@ -370,7 +370,6 @@ footer li a:hover {
   background-color: #B88E2F;
 }
 
-<<<<<<< HEAD
 @media screen and (max-width: 1200px) {
   .banner-text p {
     font-size: 16px;
@@ -387,16 +386,11 @@ footer li a:hover {
 * {
   margin: 0;
   padding: 0;
-=======
-* {
-  padding: 0;
   margin: 0;
->>>>>>> 878b7655250e01ad27d348b7c04952b007f4d364
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
 }
 
-<<<<<<< HEAD
 section {
   padding: 60px;
 }
@@ -503,7 +497,7 @@ section {
   height: 50px;
   font-size: 16px;
   font-weight: 500;
-=======
+}
 html {
   font-family: Poppins;
 }
@@ -706,5 +700,4 @@ html {
 }
 .description__list .description__product img {
   width: 100%;
->>>>>>> 878b7655250e01ad27d348b7c04952b007f4d364
 }
