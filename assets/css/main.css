@@ -502,6 +502,7 @@ section {
   font-weight: 500;
 }
 
+<<<<<<< HEAD
 .slice {
   background-color: #FCF8F3;
   height: 700px;
@@ -609,6 +610,8 @@ section {
   margin-bottom: 20px;
 }
 
+=======
+>>>>>>> 0399157414c80d15aae75ff5eb07b8c4da970ef0
 * {
   padding: 0;
   margin: 0;
@@ -820,6 +823,7 @@ html {
   width: 100%;
 }
 
+<<<<<<< HEAD
 .input-checkout h3 {
   padding-bottom: 20px;
 }
@@ -958,4 +962,15 @@ form .note input {
   border-radius: 5px;
   font-size: 20px;
   font-weight: 600;
+=======
+* {
+  padding: 0;
+  margin: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+html {
+  font-family: Poppins;
+>>>>>>> 0399157414c80d15aae75ff5eb07b8c4da970ef0
 }
