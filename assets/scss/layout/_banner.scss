@@ -1,6 +1,7 @@
 .banner {
-    position: relative;
+    // position: relative;
     width: 100%;
+    margin-top: 20px;
     
 }
 
@@ -52,23 +53,5 @@
                 gap: 10px;
                 background-color: #B88E2F;
                 border: 1px solid #B88E2F;
-    }
-}
-
-@media screen and (max-width: 1200px) {
-    .banner-text {
-        p{
-            font-size: 16px;
-        }
-        h3 {
-            font-size: 40px;
-        }
-    }
-}
-@media screen and (max-width: 992px) {
-    .banner-text {
-        p{
-            font-size: 14px;
-        }
     }
 }
