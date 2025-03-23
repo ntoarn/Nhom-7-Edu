@@ -7,3 +7,141 @@
 html {
   font-family: Poppins;
 }
+.blog__content {
+  margin-bottom: 60px;
+  .blog__content_img {
+    border-radius: 10px;
+    margin-bottom: 15px;
+    img {
+      width: 100%;
+    }
+    .blog__content_img_sub {
+      margin-top: 17px;
+      display: flex;
+      gap: 35px;
+      color: #9f9f9f;
+      font-size: 16px;
+      font-weight: 400;
+      i {
+        margin-right: 10px;
+      }
+    }
+  }
+  .blog__content_text {
+    h3 {
+      color: #000;
+      font-size: 30px;
+      font-weight: 500;
+      margin-bottom: 12px;
+    }
+    p {
+      text-align: justify;
+      margin-bottom: 30px;
+    }
+  }
+  a {
+    position: relative;
+    color: #000;
+    font-size: 16px;
+    font-weight: 400;
+    cursor: pointer;
+  }
+  a::after {
+    content: "";
+    position: absolute;
+    width: 0;
+    height: 2px;
+    border-radius: 2px;
+    background-color: #000;
+    bottom: -12px;
+    left: 50%;
+    transition: all 0.3s ease;
+  }
+  a:hover::after {
+    width: 90%;
+    left: 5%;
+  }
+}
+
+.sidebar {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  .search {
+    width: 311px;
+    height: 58px;
+    align-items: center;
+    border-radius: 10px;
+    border: 1px solid #9f9f9f;
+    background: #fff;
+    margin-bottom: 45px;
+    .form_search {
+      input {
+        border: none;
+        width: 225px;
+        margin-left: 5px;
+      }
+      input:focus-visible {
+        outline: none;
+        box-shadow: none;
+      }
+    }
+    .form_search_icon {
+      i {
+        font-size: 30px;
+      }
+    }
+  }
+  .categories {
+    margin-bottom: 60px;
+    h3 {
+      color: #000;
+      font-size: 24px;
+      font-weight: 500;
+      margin: 0 77px 33px 0;
+    }
+    li {
+      list-style-type: none;
+      display: flex;
+      justify-content: space-between;
+      margin-bottom: 40px;
+      span {
+        color: #9f9f9f;
+        font-size: 16px;
+        font-weight: 400;
+      }
+    }
+  }
+  .recent_posts {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 58px;
+    h3 {
+      color: #000;
+      font-size: 24px;
+      font-weight: 500;
+      margin: 0 77px 33px 0;
+    }
+    .post_item {
+      display: flex;
+      justify-content: center;
+      gap: 12px;
+      margin-left: 50px;
+      margin-bottom: 40px;
+      .item_sub {
+        h6 {
+          color: #000;
+          font-size: 14px;
+          font-weight: 400;
+          width: 186px;
+        }
+        span {
+          color: #9f9f9f;
+          font-size: 12px;
+          font-weight: 400;
+        }
+      }
+    }
+  }
+}
