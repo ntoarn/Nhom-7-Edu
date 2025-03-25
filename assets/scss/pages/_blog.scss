@@ -68,6 +68,7 @@ html {
   flex-direction: column;
   align-items: center;
   .search {
+    margin-left: 10px;
     width: 311px;
     height: 58px;
     align-items: center;
@@ -143,5 +144,51 @@ html {
         }
       }
     }
+  }
+}
+.sidebar_overlay {
+  position: fixed;
+  top: 0;
+  right: 0;
+  left: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.3);
+  display: none;
+}
+.search__mobile {
+  display: none;
+  width: 10px;
+  position: absolute;
+  top: 10px;
+  right: 40px;
+  i {
+    font-size: 30px;
+  }
+}
+
+@media (max-width: 768px) {
+  .article {
+    margin-top: 40px;
+  }
+  .search__mobile {
+    display: block;
+  }
+  .input_mobile:checked ~ .sidebar_overlay {
+    display: block;
+  }
+  .article {
+    position: relative;
+  }
+  .sidebar {
+    position: absolute;
+    right: 0;
+    top: 0;
+    width: 300px;
+    background: #fff;
+    display: none;
+    z-index: 99;
+  }
+  .input_mobile:checked ~ .sidebar {
+    display: block;
   }
 }
