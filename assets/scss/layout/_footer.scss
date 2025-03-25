@@ -9,7 +9,7 @@ footer {
     p{
         color: #9F9F9F;
         font-family: Poppins;
-        font-size: 28px;
+        font-size: 16px;
         font-style: normal;
         font-weight: 500;
         line-height: normal;
@@ -18,8 +18,12 @@ footer {
         padding:32px 0px;
         font-weight: 400;
         a {
-            font-size: 20px;
-            color: black;
+            color: #000;
+            font-family: Poppins;
+            font-size: 16px;
+            font-style: normal;
+            font-weight: 500;
+            line-height: normal;
             text-decoration: none;
             &:hover {
                 text-decoration: underline;
