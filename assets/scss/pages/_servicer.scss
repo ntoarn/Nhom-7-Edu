@@ -1,0 +1,41 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+html {
+  font-family: Poppins;
+}
+
+.services {
+  background: #faf3ea;
+  padding: 100px 50px;
+  .services-item {
+    display: flex;
+    align-items: center;
+    i {
+      font-size: 60px;
+      width: 70px;
+    }
+    h5 {
+      color: #242424;
+      font-size: 20px;
+      font-weight: 600;
+      line-height: 35px;
+    }
+    span {
+      color: #898989;
+      font-size: 15px;
+      font-weight: 500;
+      line-height: 30px;
+    }
+  }
+}
+@media (max-width: 768px) {
+  .services {
+    align-items: center;
+    .services-item {
+      margin-bottom: 50px;
+    }
+  }
+}
