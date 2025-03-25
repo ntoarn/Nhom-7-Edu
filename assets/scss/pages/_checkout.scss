@@ -1,6 +1,12 @@
 .input-checkout{
     h3{
         padding-bottom: 20px;
+        color: #000;
+        font-family: Poppins;
+        font-size: 36px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: normal;
     }
     
 }
@@ -13,69 +19,231 @@ form{
         display: flex;
         gap: 20px
     }
-    .frist-name{
+    .first-name{
         margin-bottom: 10px;
         label{
             display: block;
-            font-weight: 600;
+            color: #000;
+            font-family: Poppins;
+            font-size: 16px;
+            font-style: normal;
+            font-weight: 500;
+            line-height: normal;
         }
         input{
-            width: 150px;
-            height: 40px;
-            border-radius: 5px;
-            border: 1px solid #ccc;
+            width: 211px;
+            height: 75px;
+            flex-shrink: 0;
+            border-radius: 10px;
+            border: 1px solid #9F9F9F;
+            background: #FFF;
         }
     }
     .last-name{
         margin-bottom: 10px;
         label{
             display: block;
-            font-weight: 600;
+            color: #000;
+            font-family: Poppins;
+            font-size: 16px;
+            font-style: normal;
+            font-weight: 500;
+            line-height: normal;
         }
         input{
-            width: 150px;
-            height: 40px;
-            border-radius: 5px;
-            border: 1px solid #ccc;
+            width: 211px;
+            height: 75px;
+            flex-shrink: 0;
+            border-radius: 10px;
+            border: 1px solid #9F9F9F;
+            background: #FFF;
+        }
+    }
+    .company{
+        margin-bottom: 10px;
+        label{
+            display: block;
+            color: #000;
+            font-family: Poppins;
+            font-size: 16px;
+            font-style: normal;
+            font-weight: 500;
+            line-height: normal;
+        }
+        input{
+            width: 453px;
+            height: 75px;
+            flex-shrink: 0;
+            border-radius: 10px;
+            border: 1px solid #9F9F9F;
+            background: #FFF;
+        }
+    }
+    .country-region{
+        margin-bottom: 10px;
+        label{
+            display: block;
+            color: #000;
+            font-family: Poppins;
+            font-size: 16px;
+            font-style: normal;
+            font-weight: 500;
+            line-height: normal;
+        }
+        input{
+            width: 453px;
+            height: 75px;
+            flex-shrink: 0;
+            border-radius: 10px;
+            border: 1px solid #9F9F9F;
+            background: #FFF;
         }
     }
     .address{
         margin-bottom: 10px;
         label{
             display: block;
-            font-weight: 600;
+            color: #000;
+            font-family: Poppins;
+            font-size: 16px;
+            font-style: normal;
+            font-weight: 500;
+            line-height: normal;
         }
         input{
-            width: 320px;
-            height: 40px;
-            border-radius: 5px;
-            border: 1px solid #ccc;
+            width: 453px;
+            height: 75px;
+            flex-shrink: 0;
+            border-radius: 10px;
+            border: 1px solid #9F9F9F;
+            background: #FFF;
+        }
+    }
+    .town-city{
+        margin-bottom: 10px;
+        label{
+            display: block;
+            color: #000;
+            font-family: Poppins;
+            font-size: 16px;
+            font-style: normal;
+            font-weight: 500;
+            line-height: normal;
+        }
+        input{
+            width: 453px;
+            height: 75px;
+            flex-shrink: 0;
+            border-radius: 10px;
+            border: 1px solid #9F9F9F;
+            background: #FFF;
+        }
+    }
+    .province{
+        margin-bottom: 10px;
+        label{
+            display: block;
+            color: #000;
+            font-family: Poppins;
+            font-size: 16px;
+            font-style: normal;
+            font-weight: 500;
+            line-height: normal;
+        }
+        input{
+            flex-grow: 1;
+            width: 453px;
+            height: 75px;
+            flex-shrink: 0;
+            border-radius: 10px;
+            border: 1px solid #9F9F9F;
+            background: #FFF;
+            padding-left: 30px;
+            
+        }
+        svg{
+            
+        }
+    }
+    .zip-code{
+        margin-bottom: 10px;
+        label{
+            display: block;
+            color: #000;
+            font-family: Poppins;
+            font-size: 16px;
+            font-style: normal;
+            font-weight: 500;
+            line-height: normal;
+        }
+        input{
+            width: 453px;
+            height: 75px;
+            flex-shrink: 0;
+            border-radius: 10px;
+            border: 1px solid #9F9F9F;
+            background: #FFF;
         }
     }
     .number-phone{
         margin-bottom: 10px;
         label{
             display: block;
-            font-weight: 600;
+            color: #000;
+            font-family: Poppins;
+            font-size: 16px;
+            font-style: normal;
+            font-weight: 500;
+            line-height: normal;
         }
         input{
-            width: 320px;
-            height: 40px;
-            border-radius: 5px;
-            border: 1px solid #ccc;
+            width: 453px;
+            height: 75px;
+            flex-shrink: 0;
+            border-radius: 10px;
+            border: 1px solid #9F9F9F;
+            background: #FFF;
         }
     }
-    .note{
+    .email-address{
         margin-bottom: 10px;
         label{
             display: block;
-            font-weight: 600;
+            color: #000;
+            font-family: Poppins;
+            font-size: 16px;
+            font-style: normal;
+            font-weight: 500;
+            line-height: normal;
         }
         input{
-            width: 320px;
-            height: 40px;
-            border-radius: 5px;
-            border: 1px solid #ccc;
+            width: 453px;
+            height: 75px;
+            flex-shrink: 0;
+            border-radius: 10px;
+            border: 1px solid #9F9F9F;
+            background: #FFF;
+        }
+    }
+    .additional-information{
+        margin-bottom: 10px;
+        label{
+            display: block;
+            color: #000;
+            font-family: Poppins;
+            font-size: 16px;
+            font-style: normal;
+            font-weight: 500;
+            line-height: normal;
+        }
+        input{
+            width: 453px;
+            height: 75px;
+            flex-shrink: 0;
+            border-radius: 10px;
+            border: 1px solid #9F9F9F;
+            background: #FFF;
+            padding-left: 30px;
         }
     }
 }
@@ -84,30 +252,52 @@ form{
     .sub-total{
         text-align: right;
     }
-    .sub-product{
-        hr{
-            border: 1px solid black;
-            width: 585px;
-        }
+    h4{
+        color: #000;
+        font-family: Poppins;
+        font-size: 24px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: normal;
     }
+    // .sub-product{
+    //     hr{
+    //         border: 1px solid black;
+    //         width: 585px;
+    //     }
+    // }
 }
 .product-checkout{
     padding: 15px 0;
     .product-info{
         padding-bottom: 8px;
+        h5{
+            color: #9F9F9F;
+            font-family: Poppins;
+            font-size: 16px;
+            font-style: normal;
+            font-weight: 400;
+            line-height: normal;
+        }
     }
     .ship{
         p{
-            padding-bottom: 10px;
-            font-size: 20px;
-            font-weight: 600;
+            color: #000;
+            font-family: Poppins;
+            font-size: 16px;
+            font-style: normal;
+            font-weight: 400;
+            line-height: normal;
         }
     }
     .total{
         p{
-            padding-bottom: 10px;
-            font-size: 20px;
-            font-weight: 600;
+            color: #000;
+            font-family: Poppins;
+            font-size: 16px;
+            font-style: normal;
+            font-weight: 400;
+            line-height: normal;
         }
     }
     span{
@@ -119,21 +309,33 @@ form{
 
 .sub-total{
     h4{
-        margin-bottom: 20px;
+        color: #000;
+        font-family: Poppins;
+        font-size: 24px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: normal;
     }
     .total-product{
         padding-bottom: 20px;
     }
     p{
-        font-size: 24px;
-        font-weight: 600;
-    }
-    .total-ship{
-        padding-top: 5px;
-        padding-bottom: 8px;
+        color: #000;
+        font-family: Poppins;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 300;
+        line-height: normal;
     }
     .total{
-        font-size: 40px;
+       p{
+        color: var(--Primary, #B88E2F);
+        font-family: Poppins;
+        font-size: 24px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
+       }
     }
 }
 
@@ -142,11 +344,67 @@ form{
     padding: 20px 40px;
     button{
         background-color: white;
-        border: 2px solid black;
-        width: 200px;
-        height: 50px;
-        border-radius: 5px;
+        border-radius: 15px;
+        border: 1px solid #000;
+        width: 318px;
+        height: 64px;
+        flex-shrink: 0;
+        color: #000;
+        font-family: Poppins;
         font-size: 20px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;;
+    }
+}
+
+.payment{
+    margin-top: 20px;
+    .payment-option{
+        display: flex;
+        text-align: center;
+        align-items: center;
+        gap: 8px;
+        p{
+            color: #000;
+            font-family: Poppins;
+            font-size: 16px;
+            font-style: normal;
+            font-weight: 400;
+            line-height: normal;
+        }
+    }
+    svg{
+        width: 14px;
+        height: 14px;
+        flex-shrink: 0;
+        vertical-align: middle
+    }
+    .payment-desc{
+        color: #9F9F9F;
+        text-align: justify;
+        font-family: Poppins;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 300;
+        line-height: normal;
+        padding-bottom: 15px;
+        padding-top: 15px;
+    }
+    .security{
+        color: #000;
+        text-align: justify;
+        font-family: Poppins;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 300;
+        line-height: normal;
+        color: #000;
+        font-family: Poppins;
+        font-size: 16px;
+        font-style: normal;
         font-weight: 600;
+        line-height: normal;
+        padding-top: 15px
     }
 }
