@@ -637,6 +637,9 @@ html {
   width: 100%;
 }
 
+.input-checkout {
+  padding-top: 80px;
+}
 .input-checkout h3 {
   padding-bottom: 20px;
   color: #000;
@@ -871,7 +874,7 @@ form .email-address input {
   background: #FFF;
 }
 form .additional-information {
-  margin-bottom: 10px;
+  margin-bottom: 123px;
 }
 form .additional-information label {
   display: block;
@@ -893,6 +896,9 @@ form .additional-information input {
   padding-left: 30px;
 }
 
+.total-checkout {
+  padding-top: 80px;
+}
 .total-checkout .sub-total {
   text-align: right;
 }
@@ -918,6 +924,7 @@ form .additional-information input {
   font-style: normal;
   font-weight: 400;
   line-height: normal;
+  margin-bottom: 12px;
 }
 .product-checkout .ship p {
   color: #000;
@@ -926,6 +933,7 @@ form .additional-information input {
   font-style: normal;
   font-weight: 400;
   line-height: normal;
+  margin-bottom: 28px;
 }
 .product-checkout .total p {
   color: #000;
@@ -970,7 +978,7 @@ form .additional-information input {
 
 .btn-checkout {
   text-align: center;
-  padding: 20px 40px;
+  padding: 50px 40px;
 }
 .btn-checkout button {
   background-color: white;
@@ -1353,7 +1361,7 @@ img {
 
 .parameter {
   margin-top: 42px;
-  padding-bottom: 34px;
+  padding-bottom: 123px;
 }
 .parameter h3 {
   color: #000;
@@ -1921,4 +1929,75 @@ html {
   font-style: normal;
   font-weight: 400;
   line-height: normal;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+html {
+  font-family: Poppins;
+}
+
+.services {
+  background: #faf3ea;
+  padding: 100px 50px;
+}
+.services .services-item {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding-left: 100px;
+}
+.services .services-item i {
+  font-size: 60px;
+  width: 70px;
+}
+.services .services-item h5 {
+  color: #242424;
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 35px;
+}
+.services .services-item span {
+  color: #898989;
+  font-size: 15px;
+  font-weight: 500;
+  line-height: 30px;
+}
+
+@media (max-width: 768px) {
+  .services {
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .services .services-item {
+    margin-bottom: 50px;
+  }
+}
+section .paginate button {
+  border: 1px solid #F9F1E7;
+  border-radius: 10px;
+  background: #F9F1E7;
+  width: 60px;
+  height: 60px;
+  -ms-flex-negative: 0;
+      flex-shrink: 0;
+  color: #000;
+  font-family: Poppins;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+section .paginate button:hover {
+  background: #B88E2F;
+  border: 1px solid #B88E2F;
 }
