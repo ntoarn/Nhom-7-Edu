@@ -139,6 +139,7 @@ table {
   margin: 0;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
+          box-sizing: border-box;
 }
 
 html {
@@ -190,7 +191,11 @@ header {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
   -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
       -ms-flex-pack: justify;
           justify-content: space-between;
   margin-top: 10px;
@@ -237,6 +242,8 @@ header .logo {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
+      -ms-flex-pack: center;
+          justify-content: center;
   margin-top: 5px;
 }
 
@@ -250,6 +257,7 @@ footer {
   z-index: 10;
 }
 footer p {
+  color: #9F9F9F;
   color: #9F9F9F;
   font-family: Poppins;
   font-size: 16px;
@@ -283,6 +291,7 @@ footer li a:hover {
 }
 .logo-footer p {
   color: #9F9F9F;
+  color: #9F9F9F;
   font-size: 16px;
   font-style: normal;
   font-weight: 400;
@@ -296,6 +305,7 @@ footer li a:hover {
   margin-bottom: 30px;
 }
 .newsletter-footer span {
+  color: #9F9F9F;
   color: #9F9F9F;
   font-size: 16px;
   font-style: normal;
@@ -328,6 +338,8 @@ footer li a:hover {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
 }
 
 .banner img {
@@ -342,6 +354,7 @@ footer li a:hover {
   z-index: 1;
 }
 .banner .row .banner-text {
+  background-color: #FFF3E3;
   background-color: #FFF3E3;
   text-align: left;
   border-radius: 10px;
@@ -362,6 +375,8 @@ footer li a:hover {
   -ms-flex-negative: 0;
       flex-shrink: 0;
   color: var(--Primary, #B88E2F);
+      flex-shrink: 0;
+  color: var(--Primary, #B88E2F);
   font-family: Poppins;
   font-size: 52px;
   font-style: normal;
@@ -375,7 +390,11 @@ footer li a:hover {
   -webkit-box-align: start;
       -ms-flex-align: start;
           align-items: flex-start;
+      -ms-flex-align: start;
+          align-items: flex-start;
   gap: 10px;
+  background-color: #B88E2F;
+  border: 1px solid #B88E2F;
   background-color: #B88E2F;
   border: 1px solid #B88E2F;
 }
@@ -418,12 +437,14 @@ hr {
   overflow: hidden;
   border: 1px solid black;
   background: #FFF;
+  background: #FFF;
 }
 
 * {
   padding: 0;
   margin: 0;
   -webkit-box-sizing: border-box;
+          box-sizing: border-box;
           box-sizing: border-box;
 }
 
@@ -468,6 +489,8 @@ html {
   gap: 40px;
   margin-bottom: 18px;
   -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
       -ms-flex-align: center;
           align-items: center;
 }
@@ -575,12 +598,14 @@ hr {
   width: 100%;
   border: 1px solid black;
   background: #FFF;
+  background: #FFF;
 }
 
 * {
   padding: 0;
   margin: 0;
   -webkit-box-sizing: border-box;
+          box-sizing: border-box;
           box-sizing: border-box;
 }
 
@@ -598,6 +623,8 @@ html {
   display: flex;
   gap: 52px;
   -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
       -ms-flex-pack: center;
           justify-content: center;
 }
@@ -676,7 +703,10 @@ form .first-name input {
   height: 75px;
   -ms-flex-negative: 0;
       flex-shrink: 0;
+      flex-shrink: 0;
   border-radius: 10px;
+  border: 1px solid #9F9F9F;
+  background: #FFF;
   border: 1px solid #9F9F9F;
   background: #FFF;
 }
@@ -697,7 +727,10 @@ form .last-name input {
   height: 75px;
   -ms-flex-negative: 0;
       flex-shrink: 0;
+      flex-shrink: 0;
   border-radius: 10px;
+  border: 1px solid #9F9F9F;
+  background: #FFF;
   border: 1px solid #9F9F9F;
   background: #FFF;
 }
@@ -718,7 +751,10 @@ form .company input {
   height: 75px;
   -ms-flex-negative: 0;
       flex-shrink: 0;
+      flex-shrink: 0;
   border-radius: 10px;
+  border: 1px solid #9F9F9F;
+  background: #FFF;
   border: 1px solid #9F9F9F;
   background: #FFF;
 }
@@ -739,7 +775,10 @@ form .country-region input {
   height: 75px;
   -ms-flex-negative: 0;
       flex-shrink: 0;
+      flex-shrink: 0;
   border-radius: 10px;
+  border: 1px solid #9F9F9F;
+  background: #FFF;
   border: 1px solid #9F9F9F;
   background: #FFF;
 }
@@ -760,7 +799,10 @@ form .address input {
   height: 75px;
   -ms-flex-negative: 0;
       flex-shrink: 0;
+      flex-shrink: 0;
   border-radius: 10px;
+  border: 1px solid #9F9F9F;
+  background: #FFF;
   border: 1px solid #9F9F9F;
   background: #FFF;
 }
@@ -781,7 +823,10 @@ form .town-city input {
   height: 75px;
   -ms-flex-negative: 0;
       flex-shrink: 0;
+      flex-shrink: 0;
   border-radius: 10px;
+  border: 1px solid #9F9F9F;
+  background: #FFF;
   border: 1px solid #9F9F9F;
   background: #FFF;
 }
@@ -801,11 +846,16 @@ form .province input {
   -webkit-box-flex: 1;
       -ms-flex-positive: 1;
           flex-grow: 1;
+      -ms-flex-positive: 1;
+          flex-grow: 1;
   width: 453px;
   height: 75px;
   -ms-flex-negative: 0;
       flex-shrink: 0;
+      flex-shrink: 0;
   border-radius: 10px;
+  border: 1px solid #9F9F9F;
+  background: #FFF;
   border: 1px solid #9F9F9F;
   background: #FFF;
   padding-left: 30px;
@@ -827,7 +877,10 @@ form .zip-code input {
   height: 75px;
   -ms-flex-negative: 0;
       flex-shrink: 0;
+      flex-shrink: 0;
   border-radius: 10px;
+  border: 1px solid #9F9F9F;
+  background: #FFF;
   border: 1px solid #9F9F9F;
   background: #FFF;
 }
@@ -848,7 +901,10 @@ form .number-phone input {
   height: 75px;
   -ms-flex-negative: 0;
       flex-shrink: 0;
+      flex-shrink: 0;
   border-radius: 10px;
+  border: 1px solid #9F9F9F;
+  background: #FFF;
   border: 1px solid #9F9F9F;
   background: #FFF;
 }
@@ -869,7 +925,10 @@ form .email-address input {
   height: 75px;
   -ms-flex-negative: 0;
       flex-shrink: 0;
+      flex-shrink: 0;
   border-radius: 10px;
+  border: 1px solid #9F9F9F;
+  background: #FFF;
   border: 1px solid #9F9F9F;
   background: #FFF;
 }
@@ -890,7 +949,10 @@ form .additional-information input {
   height: 75px;
   -ms-flex-negative: 0;
       flex-shrink: 0;
+      flex-shrink: 0;
   border-radius: 10px;
+  border: 1px solid #9F9F9F;
+  background: #FFF;
   border: 1px solid #9F9F9F;
   background: #FFF;
   padding-left: 30px;
@@ -918,6 +980,7 @@ form .additional-information input {
   padding-bottom: 8px;
 }
 .product-checkout .product-info h5 {
+  color: #9F9F9F;
   color: #9F9F9F;
   font-family: Poppins;
   font-size: 16px;
@@ -969,6 +1032,7 @@ form .additional-information input {
 }
 .sub-total .total p {
   color: var(--Primary, #B88E2F);
+  color: var(--Primary, #B88E2F);
   font-family: Poppins;
   font-size: 24px;
   font-style: normal;
@@ -987,6 +1051,7 @@ form .additional-information input {
   width: 318px;
   height: 64px;
   -ms-flex-negative: 0;
+      flex-shrink: 0;
       flex-shrink: 0;
   color: #000;
   font-family: Poppins;
@@ -1007,6 +1072,8 @@ form .additional-information input {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
   gap: 8px;
 }
 .payment .payment-option p {
@@ -1022,9 +1089,11 @@ form .additional-information input {
   height: 14px;
   -ms-flex-negative: 0;
       flex-shrink: 0;
+      flex-shrink: 0;
   vertical-align: middle;
 }
 .payment .payment-desc {
+  color: #9F9F9F;
   color: #9F9F9F;
   text-align: justify;
   font-family: Poppins;
@@ -1056,6 +1125,7 @@ form .additional-information input {
   padding: 0;
   margin: 0;
   -webkit-box-sizing: border-box;
+          box-sizing: border-box;
           box-sizing: border-box;
 }
 
@@ -1727,6 +1797,7 @@ section {
   padding: 0;
   margin: 0;
   -webkit-box-sizing: border-box;
+          box-sizing: border-box;
           box-sizing: border-box;
 }
 
