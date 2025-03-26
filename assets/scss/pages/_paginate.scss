@@ -1,5 +1,7 @@
 section{
     .paginate{
+        text-align: center;
+        padding-bottom: 52px;
         button{
             border: 1px solid #F9F1E7;
             border-radius: 10px;
@@ -13,6 +15,7 @@ section{
             font-style: normal;
             font-weight: 400;
             line-height: normal;
+            margin-right: 38px;
         }
         button:hover{
             background: #B88E2F;
